@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.first-line-left {
+    float: left;
+    font-size: 30px;
+    width: 50%;
+}
+
+.first-line-right {
+    float: right;
+    font-size: 30px;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+    font-size: 42px;
+}
+
+.two-column img {
+    width: 100%;
+}
